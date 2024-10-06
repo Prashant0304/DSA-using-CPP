@@ -1,7 +1,7 @@
 #include<iostream>
 using namespace std;
 
-int getPivotElement(int arr[],int n)
+int getPivot(int arr[],int n)
 {
     int s=0,e=n-1;
     int mid= s+(e-s)/2;
@@ -22,6 +22,6 @@ int getPivotElement(int arr[],int n)
 
 int main(){
     int arr[5]={3,8,10,17,1};
-    cout<<"The Pivot element in an array is : "<<getPivotElement(arr,5)<<endl;
+    cout<<"The Pivot element in an array is : "<<getPivot(arr,5)<<endl;
     return 0;
 }

@@ -21,7 +21,7 @@ int main()
 
     int n;
     cout<<"Enter n value: ";
-    cin>>n;
+    cin>>n;  
     bool isPrime=1;
     for(int i=2;i<n;i++)
     {
@@ -35,4 +35,4 @@ int main()
         cout<<n<<":The number is not prime number";
     else
         cout<<n<<":The number is prime number";
-}
+}  
