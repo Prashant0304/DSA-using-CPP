@@ -10,4 +10,4 @@ int main()
     cout<<"a NOT: "<<~a<<endl;
     cout<<"b NOT: "<<~b<<endl;
     cout<<"a XOR b: "<<(a^b)<<endl;
-}
+}  
