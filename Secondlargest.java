@@ -1,16 +1,17 @@
 class Secondlargest{
 	public static void main(String args[]){
-	int numbers[] = {2,4,5,6,7,890};
-	int max = Integer.MIN_VALUE;
-	int secondLarge = Integer.MIN_VALUE;
-	for(int value : numbers){
-	if(value > max){
-	   secondLarge = max;
-	   max = value;
-	   }
-	   else if(secondLarge > max && value != max)
-	   secondLarge = value;
-	}
-	 System.out.println("Second large "+secondLarge);
+		int numbers[] ={12,43,55,123,434,56};
+		int max = Integer.MIN_VALUE;
+		int secondLargest = Integer.MIN_VALUE;
+		for(int value:numbers){
+			if(value > max){
+				secondLargest = max;
+				max = value;
+			}
+			else if(secondLargest > max && value != max){
+				secondLargest = max;
+			}
+		}
+		System.out.println("Second Largest : "+secondLargest);
 	}
 }
