@@ -8,6 +8,7 @@ class Linkedlist{
 		linkedlist.add(65);
 		linkedlist.add(54);
 		
+	
 		for(Integer list:linkedlist){
 			System.out.println("LinkedList values : "+list);
 		}
@@ -19,7 +20,7 @@ class Linkedlist{
 		for(Integer list:linkedlist){
 			System.out.println("updated LinkedList values : "+list);
 		}
-		
+		System.out.println("LinkedList first value : "+linkedlist.getFirst());
 		System.out.println("LinkedList values : "+linkedlist.get(8));//outofcound exception
 		
 	}
